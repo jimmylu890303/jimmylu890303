@@ -7,7 +7,7 @@
 <h3 align="left">About me</h3>
 <div style="display: flex;align-items: center;">
   <div style="flex: 1;">
-    <img src="./src/avatar.png" alt="Your Image">
+    <img src="./src/avatar.png" alt="Your Image" style="width:300px; height:300px;">
   </div>
   <div style=" flex: 2;
     padding-left: 20px;
