@@ -1,29 +1,17 @@
 # CHUM-MING,LU / #jimmylu890303
 
-<style>
-  .container {
-    display: flex;
-    align-items: center;
-  }
-  .left {
-    flex: 1;
-  }
-  .right {
-    flex: 2;
-    padding-left: 20px;
-    align-items: center;
-  }
-</style>
 
 <h1 align="center">Hi 👋, I'm Jimmy</h1>
 <h3 align="center">I'm a Computer Science student from Taiwan with a strong interest in exploring new technologies and understanding their inner workings. I specialize in deep learning, computer vision, SoC, and firmware development.</h3>
 
 <h3 align="left">About me</h3>
-<div class="container">
-  <div class="left">
+<div style="display: flex;align-items: center;">
+  <div style="flex: 1;">
     <img src="./src/avatar.png" alt="Your Image">
   </div>
-  <div class="right">
+  <div style=" flex: 2;
+    padding-left: 20px;
+    align-items: center;">
     <h4 align='center'>Education Background</h4>
     <ul>
       <li>Master's degree in Electrical Engineering and Computer Science at National Cheng Kung University (2023 ~ present)</li>
